@@ -1,0 +1,7 @@
+Sipariş No,Müşteri Adı ,Şehir,Sipariş Tarihi,Tutar (TL),İndirim
+1001,  Ali   Yılmaz ,Bursa,03.10.2026,"1.250,50",%10
+1002,Ayşe Demir,İstanbul,2026-10-04,"980,00",N/A
+1003,Mehmet Kaya,ankara ,05/10/2026,"2.400,75",%5
+1003,mehmet kaya,ankara,05/10/2026,"2.400,75",%5
+1004,Zeynep Ak,-,06.10.2026,null,%0
+1005,,İzmir,bilinmiyor,"15.000,00",%20

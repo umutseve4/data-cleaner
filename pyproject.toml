@@ -1,0 +1,20 @@
+[project]
+name = "data-cleaner"
+version = "0.1.0"
+description = "Reusable, tested pandas functions for cleaning messy CSV/Excel data"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "openpyxl>=3.1"]
+
+[project.scripts]
+data-cleaner = "data_cleaner.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
